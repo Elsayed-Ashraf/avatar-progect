@@ -1,0 +1,127 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    
+    background-image:linear-gradient(to right,rgb(30, 30, 52)50%,rgb(22, 22, 44, 0.264)),
+    url(../images/WhatsApp\ Image\ 2024-04-17\ at\ 5.45.57\ PM.jpeg);
+    height: 100vh;
+    /* width: 100vh; */
+    background-position: 100% 17%;
+    background-attachment: fixed;
+
+   
+}
+body:hover{
+   
+    background-image:linear-gradient(to right,rgb(66, 66, 113)27%,rgba(22, 22, 44, 0)),
+    url(../images/WhatsApp\ Image\ 2024-04-17\ at\ 5.45.57\ PM.jpeg);
+    height: 100vh;
+    background-position: 100% 17%;
+    background-attachment: fixed;
+   
+}
+/* header{
+    position:sticky;
+    top: -20px;
+} */
+header{
+   position:sticky;
+    top: -20px;
+    
+    justify-content: center;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 30px;
+   
+
+}
+a{
+    /* width: 30%; */
+   
+    color: white;
+    text-decoration: none;
+    border-bottom: 2px transparent solid;
+
+}
+a:hover{
+   
+
+    text-decoration: none;
+    border-bottom: 2px white solid;
+
+}
+header>a{
+    text-transform: uppercase;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+ul{
+    list-style: none;
+    width:47%;
+    display: flex;
+    justify-content: space-between;
+}
+.section{
+    padding: 40px 0 0 70px;
+    /* background-color: red; */
+    width: 250px;
+}
+h1{
+    
+    text-transform: uppercase;
+    font-size: 60px;
+
+}
+button{
+    background-color: white;
+    font-size: 30px;
+
+    color: black;
+    border: 2px white solid;
+    border-radius: 10px;
+    margin: 10px;
+    padding: 5px;
+}
+button:hover{
+    background-color:transparent;
+    font-size: 30px;
+    color: black;
+    border: 2px white solid;
+    border-radius: 10px;
+    margin: 10px;
+    padding: 5px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* .container:hover{
+    background-image:linear-gradient(to right,rgb(66, 66, 113)27%,rgba(22, 22, 44, 0)),
+    url(../images/WhatsApp\ Image\ 2024-04-17\ at\ 5.45.57\ PM.jpeg);
+    height: 640px;
+    background-position: 100% 17%;
+
+
+} */
